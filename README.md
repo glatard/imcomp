@@ -8,5 +8,5 @@
 
 `./imcomp.py image1.nii.gz image2.nii.gz im1im2diff`
 
-Example:
+Result example:<br/>
 <img src="diff.png"/>
