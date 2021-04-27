@@ -2,3 +2,4 @@ nibabel
 numpy
 nilearn
 matplotlib
+jupyter

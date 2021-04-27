@@ -36,6 +36,6 @@ diff_name = args.reldiff
 nib.save(rel_diff, diff_name+'.nii.gz')
 print(f'Relative differences saved in {diff_name}.nii.gz')
 
-plt = nilp.plot_img(rel_diff, cmap=cm.seismic, vmin=-1, vmax=1, colorbar=True)
+plt = nilp.plot_img(rel_diff, cmap=cm.seismic, cut_coords=(-35, 12, 9), vmin=-1, vmax=1, colorbar=True)
 plt.savefig(diff_name+'.png')
 print(f'PNG snapshot saved in {diff_name}.png')
