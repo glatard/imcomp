@@ -3,3 +3,5 @@ numpy
 nilearn
 matplotlib
 jupyter
+seaborn
+statannot
